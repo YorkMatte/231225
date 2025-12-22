@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Введите название товара</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>271</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+border-color: rgb(0, 0, 0);</string>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>название</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>цена</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>Туфли</string>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>Платье</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>693</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>Кофта</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>234</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>Футболка</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>567</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>Брюки</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>722</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Поиск товаров</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
