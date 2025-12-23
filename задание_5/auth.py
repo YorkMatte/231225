@@ -82,8 +82,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Задачи"))
 
         for row in range(self.tableWidget.rowCount()):
-            self.tableWidget.setVerticalHeaderItem(row,
-                                                   QtWidgets.QTableWidgetItem(str(row + 1)))
+            self.tableWidget.setVerticalHeaderItem(row, QtWidgets.QTableWidgetItem(str(row + 1)))
 
 
 class MainWindow(QMainWindow):
